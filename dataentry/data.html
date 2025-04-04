@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Data - Data Tracker</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <button id="back-button" class="btn-icon">
+        <span class="icon-back"></span> Back
+      </button>
+    </div>
+  </header>
+  
+  <main class="main-content">
+    <div id="message" class="message hidden"></div>
+    
+    <div id="data-container" class="card">
+      <div id="loading" class="loading">
+        <div class="spinner"></div>
+      </div>
+      
+      <div id="no-data" class="no-data hidden">
+        <p>No entries found. Add some data from the dashboard.</p>
+        <button id="go-dashboard" class="btn btn-primary mt-4">
+          Go to Dashboard
+        </button>
+      </div>
+      
+      <div id="data-table-container" class="hidden">
+        <div class="table-responsive">
+          <h2>Your Data</h2>
+          <table id="data-table" class="table">
+            <thead>
+              <tr>
+                <th>Serial No.</th>
+                <th>Date</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="data-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="js/data.js"></script>
+</body>
+</html>
