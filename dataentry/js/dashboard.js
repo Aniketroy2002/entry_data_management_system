@@ -1,4 +1,4 @@
-const API_URL = 'https://fan-data-store.onrender.com';
+const API_URL = 'Your_Backend_API_For_Storing_Data';
 
 // DOM Elements
 const messageElement = document.getElementById('message');
