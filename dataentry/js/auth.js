@@ -1,4 +1,4 @@
-const API_URL = 'https://fan-data-store.onrender.com/api';
+const API_URL = 'Your_Backend_API_For_Storing_Data';
 
 //Loading DOM
 const togglePasswordButtons = document.querySelectorAll('.toggle-password');
